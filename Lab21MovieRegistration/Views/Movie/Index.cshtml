@@ -12,44 +12,49 @@
     <meta name="viewport" content="width=device-width" />
     <title>Index</title>
 </head>
+
 <body>
-    <h1 style="text-align:center">Movie Registration </h1>
+    <header>
+        <h1 style="text-align:center">Movie Registration </h1>
+    </header>
     <hr />
-    <div style="display:block; text-align:center">
-    <form asp-action="Register" method="post" style="justify-items:left">
-        <div>
+    <div style="width:42.5%; display:inline-block">
+
+    </div>
+    <div style="display:inline-block; text-align:center">
+    <form asp-action="Register" method="post" style="text-align:left">
+        <div style="margin:20px">
             <label for="ID" id="ID">ID</label>
             <input name="ID" id="ID" asp-for="@Model.ID" />
         </div>
-        <hr />
-        <div>
+        
+        <div style="margin:20px">
             <label id="Title">Title</label>
             <input id="Title" asp-for="@Model.Title" />
         </div>
-     <hr />
-        <div>
+     
+        <div style="margin:20px">
             <label id="Genre">Genre</label>
             <select asp-for="@Model.Genre" asp-items="Html.GetEnumSelectList<Genres>()"></select>
         </div>
-        <hr />
-        <div>
+        
+        <div style="margin:20px">
             <label id="Year">Year</label>
             <input id="Year" asp-for="@Model.Year" />
         </div>
-        <hr />
-        <div>
+        
+        <div style="margin:20px">
             <label id="Actors">Actors</label>
             <input id="Actors" asp-for="@Model.Actors" />
-
-        </div>
-        <hr />
-        <div>
+         </div>
+        
+        <div style="margin:20px">
             <label id="Directors">Directors</label>
             <input id="Directors" asp-for="@Model.Directors" />
         </div>
-        <hr />
-        <div>
-            <button type="submit">Click to submit</button>
+        
+        <div style="text-align:center">
+            <button type="submit"><b>Click to submit</button>
         </div>
         
     </form>

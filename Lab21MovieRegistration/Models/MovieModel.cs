@@ -18,7 +18,7 @@ namespace Lab21MovieRegistration.Models
         public string Title { get; set; }
 
         public Genres Genre { get; set; }
-      
+        
         public DateTime Year { get; set; }
         public List<string> Actors { get; set; }
         public List<string> Directors { get; set; }
