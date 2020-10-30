@@ -13,14 +13,14 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 1 "C:\Repos\Lab21MovieRegistration\Lab21MovieRegistration\Views\_ViewImports.cshtml"
+#line 1 "C:\Users\jason\source\repos\jason-aultman\Lab21\Lab21MovieRegistration\Views\_ViewImports.cshtml"
 using Lab21MovieRegistration;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Repos\Lab21MovieRegistration\Lab21MovieRegistration\Views\_ViewImports.cshtml"
+#line 2 "C:\Users\jason\source\repos\jason-aultman\Lab21\Lab21MovieRegistration\Views\_ViewImports.cshtml"
 using Lab21MovieRegistration.Models;
 
 #line default
@@ -38,7 +38,7 @@ using Lab21MovieRegistration.Models;
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_5 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("id", new global::Microsoft.AspNetCore.Html.HtmlString("Directors"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_6 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-action", "Register", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_7 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("method", "post", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
-        private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_8 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("style", new global::Microsoft.AspNetCore.Html.HtmlString("justify-items:left"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
+        private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_8 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("style", new global::Microsoft.AspNetCore.Html.HtmlString("text-align:left"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
         #line hidden
         #pragma warning disable 0649
         private global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext __tagHelperExecutionContext;
@@ -70,7 +70,7 @@ using Lab21MovieRegistration.Models;
         {
             WriteLiteral("\r\n");
 #nullable restore
-#line 2 "C:\Repos\Lab21MovieRegistration\Lab21MovieRegistration\Views\Movie\Index.cshtml"
+#line 2 "C:\Users\jason\source\repos\jason-aultman\Lab21\Lab21MovieRegistration\Views\Movie\Index.cshtml"
   
     ViewData["Title"] = "Home Page";
 
@@ -106,7 +106,7 @@ using Lab21MovieRegistration.Models;
                     __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_0);
                     __tagHelperExecutionContext.AddHtmlAttribute(__tagHelperAttribute_1);
 #nullable restore
-#line 22 "C:\Repos\Lab21MovieRegistration\Lab21MovieRegistration\Views\Movie\Index.cshtml"
+#line 28 "C:\Users\jason\source\repos\jason-aultman\Lab21\Lab21MovieRegistration\Views\Movie\Index.cshtml"
 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvider.CreateModelExpression(ViewData, __model => Model.ID);
 
 #line default
@@ -128,7 +128,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                     __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper);
                     __tagHelperExecutionContext.AddHtmlAttribute(__tagHelperAttribute_2);
 #nullable restore
-#line 27 "C:\Repos\Lab21MovieRegistration\Lab21MovieRegistration\Views\Movie\Index.cshtml"
+#line 33 "C:\Users\jason\source\repos\jason-aultman\Lab21\Lab21MovieRegistration\Views\Movie\Index.cshtml"
 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvider.CreateModelExpression(ViewData, __model => Model.Title);
 
 #line default
@@ -149,7 +149,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                     __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.SelectTagHelper>();
                     __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper);
 #nullable restore
-#line 32 "C:\Repos\Lab21MovieRegistration\Lab21MovieRegistration\Views\Movie\Index.cshtml"
+#line 38 "C:\Users\jason\source\repos\jason-aultman\Lab21\Lab21MovieRegistration\Views\Movie\Index.cshtml"
 __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.For = ModelExpressionProvider.CreateModelExpression(ViewData, __model => Model.Genre);
 
 #line default
@@ -157,7 +157,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.For = ModelExpressionProvi
 #nullable disable
                     __tagHelperExecutionContext.AddTagHelperAttribute("asp-for", __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.For, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
 #nullable restore
-#line 32 "C:\Repos\Lab21MovieRegistration\Lab21MovieRegistration\Views\Movie\Index.cshtml"
+#line 38 "C:\Users\jason\source\repos\jason-aultman\Lab21\Lab21MovieRegistration\Views\Movie\Index.cshtml"
 __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.Items = Html.GetEnumSelectList<Genres>();
 
 #line default
@@ -179,7 +179,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.Items = Html.GetEnumSelect
                     __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper);
                     __tagHelperExecutionContext.AddHtmlAttribute(__tagHelperAttribute_3);
 #nullable restore
-#line 37 "C:\Repos\Lab21MovieRegistration\Lab21MovieRegistration\Views\Movie\Index.cshtml"
+#line 43 "C:\Users\jason\source\repos\jason-aultman\Lab21\Lab21MovieRegistration\Views\Movie\Index.cshtml"
 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvider.CreateModelExpression(ViewData, __model => Model.Year);
 
 #line default
@@ -201,7 +201,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                     __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper);
                     __tagHelperExecutionContext.AddHtmlAttribute(__tagHelperAttribute_4);
 #nullable restore
-#line 42 "C:\Repos\Lab21MovieRegistration\Lab21MovieRegistration\Views\Movie\Index.cshtml"
+#line 48 "C:\Users\jason\source\repos\jason-aultman\Lab21\Lab21MovieRegistration\Views\Movie\Index.cshtml"
 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvider.CreateModelExpression(ViewData, __model => Model.Actors);
 
 #line default
@@ -223,7 +223,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                     __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper);
                     __tagHelperExecutionContext.AddHtmlAttribute(__tagHelperAttribute_5);
 #nullable restore
-#line 48 "C:\Repos\Lab21MovieRegistration\Lab21MovieRegistration\Views\Movie\Index.cshtml"
+#line 53 "C:\Users\jason\source\repos\jason-aultman\Lab21\Lab21MovieRegistration\Views\Movie\Index.cshtml"
 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvider.CreateModelExpression(ViewData, __model => Model.Directors);
 
 #line default

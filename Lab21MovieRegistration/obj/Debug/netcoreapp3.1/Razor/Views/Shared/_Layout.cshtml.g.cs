@@ -13,14 +13,14 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 1 "C:\Repos\Lab21MovieRegistration\Lab21MovieRegistration\Views\_ViewImports.cshtml"
+#line 1 "C:\Users\jason\source\repos\jason-aultman\Lab21\Lab21MovieRegistration\Views\_ViewImports.cshtml"
 using Lab21MovieRegistration;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Repos\Lab21MovieRegistration\Lab21MovieRegistration\Views\_ViewImports.cshtml"
+#line 2 "C:\Users\jason\source\repos\jason-aultman\Lab21\Lab21MovieRegistration\Views\_ViewImports.cshtml"
 using Lab21MovieRegistration.Models;
 
 #line default
@@ -77,7 +77,7 @@ using Lab21MovieRegistration.Models;
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aa79e45588c06c46ada5ac03f9f4e81c93c534308685", async() => {
                 WriteLiteral("\r\n    <meta charset=\"utf-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>");
 #nullable restore
-#line 6 "C:\Repos\Lab21MovieRegistration\Lab21MovieRegistration\Views\Shared\_Layout.cshtml"
+#line 6 "C:\Users\jason\source\repos\jason-aultman\Lab21\Lab21MovieRegistration\Views\Shared\_Layout.cshtml"
       Write(ViewData["Title"]);
 
 #line default
