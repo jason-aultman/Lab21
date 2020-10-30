@@ -9,7 +9,7 @@ namespace Lab21MovieRegistration.Models
 {
     public class MovieModel
     {
-        
+      
         
         [Required(ErrorMessage = "{0} is required")]
         public int ID { get; set; }
@@ -20,7 +20,8 @@ namespace Lab21MovieRegistration.Models
         public Genres Genre { get; set; }
       
         public DateTime Year { get; set; }
-        public List<string> Actors { get; set; }
-        public List<string> Directors { get; set; }
+        public string Actors { get; set; }
+       
+        public string Directors { get; set; }
     }
 }
