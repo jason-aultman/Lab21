@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jason\\source\\repos\\jason-aultman\\Lab21\\Lab21MovieRegistration\\Lab21MovieRegistration.csproj": {}
+    "C:\\Repos\\Lab21MovieRegistration\\Lab21MovieRegistration\\Lab21MovieRegistration.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jason\\source\\repos\\jason-aultman\\Lab21\\Lab21MovieRegistration\\Lab21MovieRegistration.csproj": {
+    "C:\\Repos\\Lab21MovieRegistration\\Lab21MovieRegistration\\Lab21MovieRegistration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jason\\source\\repos\\jason-aultman\\Lab21\\Lab21MovieRegistration\\Lab21MovieRegistration.csproj",
+        "projectUniqueName": "C:\\Repos\\Lab21MovieRegistration\\Lab21MovieRegistration\\Lab21MovieRegistration.csproj",
         "projectName": "Lab21MovieRegistration",
-        "projectPath": "C:\\Users\\jason\\source\\repos\\jason-aultman\\Lab21\\Lab21MovieRegistration\\Lab21MovieRegistration.csproj",
+        "projectPath": "C:\\Repos\\Lab21MovieRegistration\\Lab21MovieRegistration\\Lab21MovieRegistration.csproj",
         "packagesPath": "C:\\Users\\jason\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jason\\source\\repos\\jason-aultman\\Lab21\\Lab21MovieRegistration\\obj\\",
+        "outputPath": "C:\\Repos\\Lab21MovieRegistration\\Lab21MovieRegistration\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -43,6 +43,18 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.9, )"
@@ -94,7 +106,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

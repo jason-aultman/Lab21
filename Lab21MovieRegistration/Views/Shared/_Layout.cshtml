@@ -17,6 +17,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <partial name="_LoginPartial" />
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
@@ -28,10 +29,13 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Movie" asp-action="Index">Registration</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="RegisterMovie" asp-action="Index">Alternate Registration</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="RegisterMovie" asp-action="Index">Alt Registration</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Search" asp-action="Index">Search</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="List" asp-action="Index">List All</a>
                         </li>
                     </ul>
                 </div>

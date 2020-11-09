@@ -13,14 +13,14 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 1 "C:\Users\jason\source\repos\jason-aultman\Lab21\Lab21MovieRegistration\Views\_ViewImports.cshtml"
+#line 1 "C:\Repos\Lab21MovieRegistration\Lab21MovieRegistration\Views\_ViewImports.cshtml"
 using Lab21MovieRegistration;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\jason\source\repos\jason-aultman\Lab21\Lab21MovieRegistration\Views\_ViewImports.cshtml"
+#line 2 "C:\Repos\Lab21MovieRegistration\Lab21MovieRegistration\Views\_ViewImports.cshtml"
 using Lab21MovieRegistration.Models;
 
 #line default
@@ -57,7 +57,7 @@ using Lab21MovieRegistration.Models;
         {
             WriteLiteral("\r\n");
 #nullable restore
-#line 2 "C:\Users\jason\source\repos\jason-aultman\Lab21\Lab21MovieRegistration\Views\Movie\Result.cshtml"
+#line 2 "C:\Repos\Lab21MovieRegistration\Lab21MovieRegistration\Views\Movie\Result.cshtml"
   
     Layout = null;
 
